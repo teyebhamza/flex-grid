@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Petemoss&family=Roboto:ital,wght@0,400;1,400;1,500&family=Vollkorn:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Vollkorn', serif;
+
+}
+.main-section{
+    background-color:  hsl(221, 39%, 33%);
+    width: 40vw;
+    height: 100vh;
+    border: 3px solid rgb(18, 30, 31);
+    padding: 16px;
+    
+}
+
+
+#title{
+    font-size: 30px;
+}
+
+.inner-nav{
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+}
+
+.statuts-container{
+display: flex;
+gap: 12px;
+align-items: flex-end;
+}
+
+#on{
+    padding: 8px;
+    width: 50px;
+    border-radius: 16px;
+    border: 0;
+    background-color: rgb(250, 212, 176);
+}
+
+.display{
+    
+    background-color: rgba(122, 238, 199, 0.233);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 14px 10px 14px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.big-buttons-container{
+
+margin-top: 10px;
+padding: 20px;
+border-radius: 10px;
+background-color: hsl(224, 36%, 15%);
+}
+
+.row-botton{
+    
+
+}
+.button-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.single-button{
+    width: 60px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 10px;
+    border-bottom: 4px solid  hsl(28, 16%, 65%);
+}
+.b-button{
+    font-size: 30px;
+    width: 160px;
+    height: 60px;
+    background-color: blue;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+.purpelBtn{
+    background-color: rgb(71, 247, 109);
+}
+#circle{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(226, 23, 23);
+    border-radius: 50%;
+}
+.redBtn{
+    background-color: rgba(248, 47, 47, 0.733);
+}
+#equal{
+
+}
